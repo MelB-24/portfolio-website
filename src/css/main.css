@@ -1,0 +1,21 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  height: calc(100vh - 65px - 60px);
+  width: 50vw;
+}
+
+.main-title {
+  color: #008F93;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background: white; */
+}
+
+.main-text {
+  color: #008F93;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background: white; */
+
+}

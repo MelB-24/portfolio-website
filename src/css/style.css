@@ -1,0 +1,10 @@
+@import "./navbar.css";
+@import "./footer.css";
+@import "./main.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0px;
+  background-color: rgb(245, 213, 137);
+}

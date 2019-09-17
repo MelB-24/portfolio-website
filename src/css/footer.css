@@ -1,0 +1,25 @@
+.footer {
+  background-color: #484554;
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  height: inherit;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-link {
+  margin: 5px;
+  color: #FFD677;
+  font-size: 35px;
+}
