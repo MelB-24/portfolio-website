@@ -12,17 +12,34 @@
 }
 
 .post-card {
-  height: 100px;
+  height: 200px;
+  display: flex;
+  margin: 30px;
+  border-bottom: solid thin black;
 }
 
 .post-card img {
-  
+  height: 180px;
+
 }
 
 .post-card h2 {
-
+  margin: 0px 0px 10px 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .post-card h5 {
+  margin: 0px 0px 10px 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+.blog-text p {
+  margin: 0px 0px 10px 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-link {
+  display: block;
+  margin: 0px;
+  text-decoration: none;
 }
