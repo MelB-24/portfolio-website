@@ -1,0 +1,28 @@
+.main-blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-posts {
+  overflow: scroll;
+  background: white;
+  height: 70%;
+  width: 90vw;
+  align-self: center;
+}
+
+.post-card {
+  height: 100px;
+}
+
+.post-card img {
+  
+}
+
+.post-card h2 {
+
+}
+
+.post-card h5 {
+
+}

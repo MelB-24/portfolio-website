@@ -16,3 +16,10 @@ body {
 main {
   height: calc(100vh - 65px - 60px);
 }
+
+.header {
+  font-family: 'Source Serif Pro', serif;
+  color: #6B63C7;
+  font-size: 45px;
+  margin: 10px 0px 10px 24px;
+}
