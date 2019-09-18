@@ -1,5 +1,4 @@
-.main {
-  height: calc(100vh - 65px - 60px);
+.main-home {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -39,4 +38,5 @@
   max-width: 100%;
   height: auto;
   box-shadow: 3px 3px 12px -2px rgba(0,0,0,0.38);
+  margin: 15px;
 }

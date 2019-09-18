@@ -54,3 +54,24 @@
   letter-spacing: 3px;
 }
 
+@media only screen and (max-width: 900px) {
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background: rgba(0,0,0,0.5);
+    min-width: 200px;
+    /* position: absolute; */
+  }
+
+  .dropdown-content a {
+    color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
