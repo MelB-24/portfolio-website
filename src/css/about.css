@@ -1,0 +1,24 @@
+.main-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-about img {
+  width: 150px;
+  height: 175px;
+  align-self: center;
+  border-radius: 2px;
+}
+
+.about-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 60%;
+  align-self: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: #EB6A60;
+}
