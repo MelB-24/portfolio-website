@@ -1,19 +1,25 @@
 .main-about {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-.main-about img {
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about-container img {
   width: 150px;
   height: 175px;
-  align-self: center;
   border-radius: 2px;
 }
 
 .about-text {
+  width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  max-width: 60%;
-  align-self: center;
   text-align: center;
   font-size: 22px;
 }

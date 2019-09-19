@@ -1,13 +1,16 @@
 .main-contact {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
 }
 
 .formspree {
   display: flex;
   flex-direction: column;
+  width: 50%;
   margin: 0px 24px;
   align-items: center;
+  justify-content: center;
 }
 
 .name-input, .email-input, .message-input {
