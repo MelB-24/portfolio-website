@@ -18,7 +18,9 @@ main {
 }
 
 .header {
-  font-family: 'Source Serif Pro', serif;
+  /* font-family: 'Source Serif Pro', serif; */
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
   color: #6B63C7;
   font-size: 45px;
   margin: 10px 0px 10px 24px;
