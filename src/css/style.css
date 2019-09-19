@@ -6,11 +6,11 @@
 @import "./blog.css";
 @import "./portfolio.css";
 
-@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat|Playfair+Display|Source+Sans+Pro|Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat|Source+Sans+Pro&display=swap');
 
 body {
   margin: 0px;
-  background-color: #C7FCEB;
+  background-color: #F3EED9;
 }
 
 main {
@@ -18,10 +18,9 @@ main {
 }
 
 .header {
-  /* font-family: 'Source Serif Pro', serif; */
-  font-family: 'Lobster', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 2px;
-  color: #6B63C7;
-  font-size: 45px;
+  color: #484554;
+  font-size: 40px;
   margin: 10px 0px 10px 24px;
 }
