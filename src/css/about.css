@@ -1,3 +1,5 @@
+/* responsive */
+
 .main-about {
   display: flex;
   justify-content: space-between;
@@ -10,16 +12,14 @@
   align-items: center;
   width: 50%;
   margin: 24px;
-  /* height: inherit; */
-  /* overflow: scroll; */
 }
 
 .about-container img {
   width: 150px;
-  height: 175px;
-  border-radius: 2px;
-  max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 2px;
+  margin: 0px auto;
 }
 
 .about-text {
@@ -39,11 +39,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* height: unset; */
-    /* overflow: scroll; */
   }
 
   .about-container {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .about-container {
+    height: unset;
+    overflow: scroll;
+    display: block;
   }
 }
