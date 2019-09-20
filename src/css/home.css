@@ -33,3 +33,34 @@
   height: auto;
   box-shadow: 3px 3px 12px -2px rgba(0,0,0,0.38);
 }
+
+@media only screen and (max-width: 600px) {
+  .main-home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .intro {
+    display: flex;
+    width: unset;
+  }
+
+  .intro .header {
+    font-size: 35px;
+    text-align: center;
+    margin: 24px;
+  }
+
+  .intro .main-text {
+    text-align: center;
+    margin: 0px 24px;
+  }
+
+  .graphic {
+    width: unset;
+  }
+  .graphic img {
+    max-width: 80%;
+  }
+}
