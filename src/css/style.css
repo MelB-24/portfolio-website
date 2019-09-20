@@ -37,4 +37,8 @@ main {
     justify-content: center;
     text-align: center;
   }
+
+  .header {
+    margin: 12px 0px;
+  }
 }
