@@ -1,8 +1,8 @@
 .footer {
   background-color: #484554;
   height: 60px;
-  position: sticky;
-  /* bottom: 0px; */
+  /* position: sticky; */
+  bottom: 0px;
   width: 100%;
 }
 
@@ -20,6 +20,6 @@
 
 .footer-link {
   margin: 5px;
-  color: #EB6A60;
+  color: rgb(252, 140, 132);
   font-size: 35px;
 }

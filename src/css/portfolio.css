@@ -2,31 +2,34 @@
 
 .main-portfolio {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
 }
 
 .main-portfolio .header-container {
-  width: 30%;
+  align-self: flex-start;
+  width: unset;
+  margin: 12px;
 }
 
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  margin-bottom: 24px;
   justify-content: space-evenly; 
+  width: 95%;
 }
 
 .folio-card {
-  height: auto;
-  width: 300px;
+  height: 400px;
+  width: 350px;
   box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
   margin: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #EB6A60;
-  justify-content: space-evenly;
+  background: rgb(252, 140, 132);
+  justify-content: space-between;
 }
 
 .folio-card:hover {
@@ -35,9 +38,24 @@
   transition: all 1s ease;
 }
 
+.image-div {
+  display: flex;
+  align-items: center;
+  height: 60%;
+}
+
 .folio-card img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  margin: 18px;
+}
+
+.folio-header-and-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
 }
 
 .folio-card h2 {
@@ -45,6 +63,13 @@
   color: #484554;
   justify-self: flex-end;
 }
+
+.github-link {
+  margin: 5px;
+  color: #484554;
+  font-size: 35px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .main-portfolio {
