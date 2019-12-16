@@ -31,7 +31,7 @@
 
 .about-text a {
   text-decoration: none;
-  color: rgb(252, 140, 132);
+  color: #fd8b83;
 }
 
 @media only screen and (max-width: 600px) {

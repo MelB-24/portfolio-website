@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(252, 140, 132);
+  background: #fd8b83;
   justify-content: space-between;
 }
 
