@@ -22,7 +22,7 @@
 
 .button {
   font-size: 30px;
-  color: #484554;
+  color: #2d3234;
 }
 
 .dropdown-content {
@@ -51,7 +51,7 @@
 .heading {
   font-size: 120%;
   font-family: 'Montserrat', sans-serif;
-  color: #484554;
+  color: #2d3234;
   margin: 0px 24px 0px 0px;
   letter-spacing: 3px;
 }
@@ -73,7 +73,7 @@
 
   .dropdown-content a {
     display: block;
-    color: #484554;
+    color: #2d3234;
   }
 
   .dropdown:hover .dropdown-content {
